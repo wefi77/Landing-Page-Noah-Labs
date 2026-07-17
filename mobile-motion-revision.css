@@ -1,0 +1,6 @@
+/* Mobile Phase 2 preserves the full phase graphic without cropping. */
+@media(max-width:760px){.phase-two{min-height:0;aspect-ratio:16/9;background-size:contain;background-repeat:no-repeat;background-position:center}.phase-art{background-size:contain;background-repeat:no-repeat;background-position:center}.phase-top{clip-path:polygon(0 0,100% 0,100% 35%,0 35%)}.phase-left{clip-path:polygon(0 25%,38% 25%,38% 100%,0 100%)}.phase-center{clip-path:polygon(31% 25%,69% 25%,69% 100%,31% 100%)}.phase-right{clip-path:polygon(62% 25%,100% 25%,100% 100%,62% 100%)}}
+/* Scroll entrance shared by all content sections. */
+.scroll-rise{opacity:0;transform:translateY(42px);transition:opacity .72s ease,transform .8s cubic-bezier(.18,.78,.23,1)}.scroll-rise.is-inview{opacity:1;transform:translateY(0)}
+/* Keep the staking explanation clean—no technical grid or decorative line. */
+.source{border-top:0!important}.source:before,.source:after{display:none!important}
